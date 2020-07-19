@@ -27,11 +27,11 @@ public class Book {
     private String name;
     private String description;
 
-    private BigDecimal unitProice;
+    private BigDecimal unitPrice;
     private String imageUrl;
     private boolean active = true;
 
-    private int unitsInStock;
+    private int unitInStock;
 
     @Temporal(TemporalType.TIMESTAMP)
     private Date createdOn;

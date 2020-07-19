@@ -52,13 +52,11 @@ public class ShoppingApplication implements CommandLineRunner {
                 range = 0;
             }
             book.setDescription("test book");
-            book.setImageUrl("https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww." +
-                    "gettyimages.com%2Fphotos%2Fistanbul&psig=AOvVaw3EIBrFCfTCKOL2IWjgacsf&ust=" +
-                    "1595199809141000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCLC668H01-oCFQAAAAAdAAAAABAD");
+            book.setImageUrl("assets/images/books/1.jpeg");
             book.setName(i + ".Book");
             book.setSku("sku nedir bilmiyorum");
-            book.setUnitProice(new BigDecimal(12));
-            book.setUnitsInStock(i);
+            book.setUnitPrice(new BigDecimal(12));
+            book.setUnitInStock(i);
             bookList.add(book);
         }
 
